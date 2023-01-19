@@ -1,0 +1,7 @@
+CREATE USER pknu@localhost IDENTIFIED BY '0107';
+
+CREATE DATABASE pknu;
+
+GRANT ALL PRIVILEGES ON pknu.* TO 'pknu'@'localhost';
+
+FLUSH PRIVILEGES;
