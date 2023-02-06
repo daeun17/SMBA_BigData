@@ -1,0 +1,4 @@
+SELECT *
+FROM cart
+WHERE cart_no = '2005050700001'
+AND cart_prod = 'P101000001';
